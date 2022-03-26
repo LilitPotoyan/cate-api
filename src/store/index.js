@@ -1,7 +1,7 @@
 import { createStore } from 'redux'
 
 const initialState = {
-  categoryId: 0,
+  categoryId: 1,
   catsData: [],
 }
 

@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03350a2d-3abf-47ae-bab0-7cb5dd672f00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Categories/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Categories/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoreButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoreButton/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Photos/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Photos/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useMemoSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useMount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +46,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648283152750</updated>
-      <workItem from="1648283154009" duration="11622000" />
+      <workItem from="1648283154009" duration="11941000" />
     </task>
+    <task id="LOCAL-00001" summary="mini app">
+      <created>1648295192770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648295192771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mini app" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini app" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648286185591">
       <screen x="0" y="25" width="1680" height="972" />
     </state>
     <state x="565" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.972@0.25.1680.972" timestamp="1648286185591" />
+    <state x="431" y="102" key="CommitChangelistDialog2" timestamp="1648295192638">
+      <screen x="0" y="25" width="1680" height="972" />
+    </state>
+    <state x="431" y="102" key="CommitChangelistDialog2/0.25.1680.972@0.25.1680.972" timestamp="1648295192638" />
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2" timestamp="1648295194197">
+      <screen x="0" y="25" width="1680" height="972" />
+    </state>
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.25.1680.972@0.25.1680.972" timestamp="1648295194197" />
     <state x="541" y="266" width="597" height="490" key="find.popup" timestamp="1648293311291">
       <screen x="0" y="25" width="1680" height="972" />
     </state>
