@@ -1,20 +1,18 @@
 import { useRef } from 'react';
 import isEqual from 'react-fast-compare';
 import {
-  TypedUseSelectorHook,
   useSelector as useSelectorGeneric,
 } from 'react-redux';
 
-import { IReduxState } from 'types';
 
-const useSelector: TypedUseSelectorHook<IReduxState> = useSelectorGeneric;
+const useSelector = useSelectorGeneric;
 
-const useMemoSelector: TypedUseSelectorHook<IReduxState> = (
+const useMemoSelector = (
   selector,
   comparator = isEqual,
 ) => {
-  const resultRef = useRef<any>(null);
-  const isMemoEqualRef = useRef<boolean>(true);
+  const resultRef = useRef(null);
+  const isMemoEqualRef = useRef(true);
   const result = useSelector(selector, (prev, next) => {
     const equality = comparator(prev, next);
     isMemoEqualRef.current = equality;
